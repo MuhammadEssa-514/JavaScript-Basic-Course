@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+background-color: black;
+
+}
+.intro{
+    background-color: greenyellow;
+    text-align: center;
+    height: 80vh;
+    width: 80%;
+    margin: 0% auto;
+    overflow-y: auto;
+}
+.whereto{
+    background-color: greenyellow;
+    text-align: center;
+    height: 80vh;
+    width: 80%;
+    margin: 0% auto;
+    overflow-y: scroll;
+    font-size: 20px;
+}
