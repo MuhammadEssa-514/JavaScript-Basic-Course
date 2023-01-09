@@ -33,7 +33,6 @@
 
 <div class="whereto">
 
-<h3>Note:please ignore double qotes in script tag ""</h3>
     <h1>The <"script"> Tag</h1>
     <h4>In HTML, JavaScript code must be inserted between <"script"> and <"/script"> tags.</h4> <br><br>
 
@@ -49,11 +48,26 @@ document.getElementById("demo").innerHTML = "My First JavaScript";
 <h4>In this example, a JavaScript function is placed in the <"head"> section of an HTML page.
     The function is invoked (called) when a button is clicked:</h4> <br><br>
 
-<!-- rough -->
 
+<xmp>
+Example
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
+<body>
+<h1>My Web Page</h1>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+</"body">
+</html>
 
-
-
+</xmp>
 
 
 
