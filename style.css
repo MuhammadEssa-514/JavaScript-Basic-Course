@@ -11,6 +11,19 @@
     margin: 0% auto;
     overflow-y: auto;
 }
+h6{
+    font-size: 70px;
+}
+.wel{
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+    height: 30vh;
+    width: 80%;
+    margin: 0% auto;
+    
+}
 
 main{
 background-color: black;
