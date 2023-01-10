@@ -60,3 +60,14 @@ background-color: black;
 
     overflow-y: scroll;
 }
+
+.output{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    height: 80vh;
+    width: 80%;
+    margin: 0% auto;
+    overflow-y: auto;
+    border: 7px double darkred; 
+}
