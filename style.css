@@ -10,6 +10,8 @@
     width: 80%;
     margin: 0% auto;
     overflow-y: auto;
+    border: 7px double red;
+    border-radius: 200px 0px 200px 0px;
 }
 h6{
     font-size: 70px;
@@ -36,6 +38,7 @@ background-color: black;
     width: 80%;
     margin: 0% auto;
     overflow-y: auto;
+    
 }
 .whereto{
     background-color: greenyellow;
