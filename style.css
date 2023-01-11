@@ -73,3 +73,13 @@ background-color: black;
     overflow-y: auto;
     border: 7px double darkred; 
 }
+.JavaScripSyntax{
+    background-color: transparent;
+    color: greenyellow;
+    text-align: center;
+    height: 80vh;
+    width: 80%;
+    margin: 0% auto;
+    overflow-y: auto;
+    border: 7px double darkred; 
+}
