@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.content{
+#content{
     background-color: greenyellow;
     text-align: center;
     height: 80vh;
@@ -19,10 +19,10 @@ h6{
 h1{
     color: red;
 }
-.well{
+#well{
     color: white ;
 }
-.wel{
+#wel{
     color: greenyellow;
     font-size: 30px;
     padding: 30px;
@@ -38,7 +38,7 @@ background-color: black;
 
 }
 
-.intro{
+#intro{
     background-color: transparent;
     color: greenyellow;
     text-align: center;
@@ -50,7 +50,7 @@ background-color: black;
 
     
 }
-.whereto{
+#whereto{
     background-color: transparent;
     color: greenyellow;
 
@@ -63,7 +63,7 @@ background-color: black;
     overflow-y: scroll;
 }
 
-.output{
+#output{
     background-color: transparent;
     color: greenyellow;
     text-align: center;
@@ -73,7 +73,7 @@ background-color: black;
     overflow-y: auto;
     border: 7px double darkred; 
 }
-.JavaScripSyntax{
+#JavaScripSyntax{
     background-color: transparent;
     color: greenyellow;
     text-align: center;
@@ -83,7 +83,7 @@ background-color: black;
     overflow-y: auto;
     border: 7px double darkred; 
 }
-.javascriptcoment{
+#javascriptcoment{
     background-color: transparent;
     color: greenyellow;
     text-align: center;
@@ -93,7 +93,7 @@ background-color: black;
     overflow-y: auto;
     border: 7px double darkred;
 }
-.javascriptVariable{
+#javascriptVariable{
     background-color: transparent;
     color: greenyellow;
     text-align: center;
@@ -105,7 +105,7 @@ background-color: black;
 }
 
 
-.jhuhgd{
+#jhuhgd{
     background-color: transparent;
     color: greenyellow;
     text-align: center;
@@ -115,7 +115,7 @@ background-color: black;
     overflow-y: auto;
     border: 7px double darkred;  
 }
-.jhuhgd{
+#jhuhgd{
     background-color: transparent;
     color: greenyellow;
     text-align: center;
@@ -124,7 +124,9 @@ background-color: black;
     margin: 0% auto;
     overflow-y: auto;
     border: 7px double darkred;  
-}.jhuhgd{
+}
+
+#jhuhgd{
     background-color: transparent;
     color: greenyellow;
     text-align: center;
@@ -133,7 +135,8 @@ background-color: black;
     margin: 0% auto;
     overflow-y: auto;
     border: 7px double darkred;  
-}.jhuhgd{
+}
+#jhuhgd{
     background-color: transparent;
     color: greenyellow;
     text-align: center;
@@ -142,7 +145,8 @@ background-color: black;
     margin: 0% auto;
     overflow-y: auto;
     border: 7px double darkred;  
-}.jhuhgd{
+}
+#jhuhgd{
     background-color: transparent;
     color: greenyellow;
     text-align: center;
@@ -151,7 +155,8 @@ background-color: black;
     margin: 0% auto;
     overflow-y: auto;
     border: 7px double darkred;  
-}.jhuhgd{
+}
+#jhuhgd{
     background-color: transparent;
     color: greenyellow;
     text-align: center;
