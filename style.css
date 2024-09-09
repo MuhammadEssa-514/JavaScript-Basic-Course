@@ -6,35 +6,132 @@
 a{
     color:red;
 }
-#content{
-    background-color: yellowgreen;
-    text-align: center;
-    height: 80vh;
-    width: 80%;
-    margin: 0% auto;
-overflow-y: auto;
-    border: 7px double red;
-    border-radius: 200px 0px 200px 0px;
-}
-h6{
-    font-size: 70px;
-}
-h1{
+h1 {
     color: red;
 }
-#well{
-    color: white ;
+
+/* Specific styling for the #well id */
+#well {
+    color: red;
+    font-size: 2rem; /* Responsive font size */
 }
-#wel{
-    color: greenyellow;
-    font-size: 30px;
-    padding: 30px;
+
+/* Styling the container with id #wel */
+#wel {
+    background-color: greenyellow;
+    padding: 20px;
     text-align: center;
-    height: 30vh;
+    height: auto;
     width: 80%;
-    margin: 0% auto;
-    
+    margin: 0 auto;
+    border-radius: 10px;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #wel {
+        width: 90%; /* Slightly narrower width on smaller screens */
+    }
+
+    #well {
+        font-size: 1.5rem; /* Slightly smaller font size */
+    }
+}
+
+@media (max-width: 480px) {
+    #wel {
+        width: 95%; /* Maximum width for small screens */
+        padding: 10px; /* Reduce padding */
+    }
+
+    #well {
+        font-size: 1.2rem; /* Smaller font size for mobile screens */
+    }
+}
+
+/* for content */
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Content container styling */
+#content {
+    background-color: yellowgreen;
+    text-align: left; /* Change to left-align for better readability */
+    height: auto; /* Let the height be determined by content */
+    max-height: 80vh; /* Prevent overflow by setting a max height */
+    width: 80%;
+    margin: 0 auto;
+    overflow-y: auto;
+    border: 7px double red;
+    border-radius: 20px; /* Simplified for better responsiveness */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+/* Responsive typography */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    #content {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #content {
+        width: 95%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    li {
+        margin: 8px 0;
+    }
+}
+
 
 main{
 background-color: black;
